@@ -1,0 +1,15 @@
+{
+  "presets": ["react"],
+  "plugins": [
+    [
+      "../index.js",
+      {
+        "attributes": [
+          ["string", "test", "updateTest"],
+          ["string", "test2", null],
+          ["regex", "data([A-Z][a-z]+)", "transformCamelToKebab"]
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-rename-react-props",
+  "version": "0.0.1",
+  "description": "A babel plugin to rename your react props",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel test/index.js -o ./test/dist.js"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "plugin",
+    "react",
+    "rename",
+    "rename-props"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-core": "^6.26.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "engines": {
+    "node": ">=16.x",
+    "pnpm": ">=7.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "packageManager": "pnpm@7.2.1"
+}
